@@ -15,21 +15,13 @@ public class Movimentacao {
         this.valorUnitario = valorUnitario;
     }
 
-    public Date getData() {
-        return data;
-    }
+    public Date getData() { return data; }
 
-    public String getTipo() {
-        return tipo;
-    }
+    public String getTipo() { return tipo; }
 
-    public int getQuantidade() {
-        return quantidade;
-    }
+    public int getQuantidade() { return quantidade; }
 
-    public double getValorUnitario() {
-        return valorUnitario;
-    }
+    public double getValorUnitario() { return valorUnitario; }
 
     @Override
     public String toString() {
